@@ -1,0 +1,88 @@
+body {
+    background-color:#24273a;
+    color: #cad3f5;
+    font-family: 'Source Code Pro';
+    background-attachment: fixed; 
+}
+
+div.title {
+    background-color:#24273a;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 75%;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    column-gap: 100px;
+    padding: 5px 10px;
+}
+
+div.image {
+    width: 350px;
+    background-color: #eff1f5;
+    max-width: 50%;
+    height: auto;
+}
+
+figure {
+    flex: 33.33%;
+    padding: 10px 20px;
+}
+
+figcaption {
+    font-size: smaller;
+    padding: 3px;
+}
+
+h1 {
+    color: #c6a0f6
+}
+
+h2 {
+    background-color:#24273a;
+    padding: 10px 20px;
+    max-width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+a {
+    color: #eff1f5;
+}
+
+hr {
+    color: #c6a0f6;
+    width: 90%;
+}
+
+div.container {
+    background-color:#24273a;
+    text-align: justify;
+    padding: 10px 20px;
+    max-width: 75%;
+    height: auto;
+    margin: auto;
+    border: 20px;
+    display: flex;
+}
+
+div.text {
+    flex: 33.33%;
+    float: left;
+    vertical-align: middle;
+    padding: 10px 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
